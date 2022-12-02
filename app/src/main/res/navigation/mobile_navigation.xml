@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/maps">
+
+    <fragment
+        android:id="@+id/maps"
+        android:name="com.example.combis.Maps"
+        android:label="CENTRO - SORIANA"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/RUTA1"
+        android:name="com.example.combis.RUTA1"
+        android:label="IPN - CENTRAL"
+        tools:layout="@layout/fragment_r_u_t_a1" />
+    <fragment
+        android:id="@+id/RUTA2"
+        android:name="com.example.combis.RUTA2"
+        android:label="UPP -PACHUCA"
+        tools:layout="@layout/fragment_r_u_t_a2" />
+    <fragment
+        android:id="@+id/RUTA3"
+        android:name="com.example.combis.RUTA3"
+        android:label="PACHUCA - OMITLAN"
+        tools:layout="@layout/fragment_r_u_t_a3" />
+</navigation>

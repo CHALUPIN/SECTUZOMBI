@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/maps"
+            android:icon="@drawable/tuzombi_3"
+            android:title="CENTRO-SORIANA" />
+        <item
+            android:id="@+id/RUTA1"
+            android:icon="@drawable/tuzombi_3"
+            android:title="IPN-CENTRAL" />
+        <item
+            android:id="@+id/RUTA2"
+            android:icon="@drawable/tuzombi_3"
+            android:title="PACHUCA-UPP" />
+        <item
+            android:id="@+id/RUTA3"
+            android:icon="@drawable/tuzombi_3"
+            android:title="PACHUCA - OMITLAN" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<!--MAPA-->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<!--BOTONES DE MENU-->
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/grupo1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        fab:fab_addButtonColorNormal="@color/BCKGROUND"
+        fab:fab_addButtonColorPressed="@color/FONDOOSCURO">
+
+<!--        <com.getbase.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/boton1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            fab:fab_colorNormal="@color/BCKGROUND"-->
+<!--            fab:fab_icon="@drawable/busstopred"-->
+<!--            fab:fab_size="mini"-->
+<!--            fab:fab_title="Paradas no designadas"-->
+<!--            fab:fab_colorPressed="@color/ic_launcher_background"/>-->
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/boton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/BCKGROUND"
+            fab:fab_icon="@drawable/busstopgreen"
+            fab:fab_size="mini"
+            fab:fab_title="Paradas desigandas"
+            fab:fab_colorPressed="@color/FONDOOSCURO"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</FrameLayout>
+
+
